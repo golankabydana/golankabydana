@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f4f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #c1c8c1;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #717973;
+  }
+}
+
+@theme {
+  --color-primary: #002718;
+  --color-primary-container: #133e2b;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #7da990;
+  --color-inverse-primary: #a3d1b6;
+  --color-primary-fixed: #bfedd2;
+  --color-primary-fixed-dim: #a3d1b6;
+  --color-on-primary-fixed: #002113;
+  --color-on-primary-fixed-variant: #254f3a;
+
+  --color-secondary: #635e53;
+  --color-secondary-container: #e9e2d4;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #696459;
+  --color-secondary-fixed: #e9e2d4;
+  --color-secondary-fixed-dim: #cdc6b8;
+  --color-on-secondary-fixed: #1e1b13;
+  --color-on-secondary-fixed-variant: #4b463c;
+
+  --color-tertiary: #371900;
+  --color-tertiary-container: #562b00;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #e28a3b;
+  --color-tertiary-fixed: #ffdcc3;
+  --color-tertiary-fixed-dim: #ffb77e;
+  --color-on-tertiary-fixed: #2f1500;
+  --color-on-tertiary-fixed-variant: #6e3900;
+
+  --color-surface: #f7faf6;
+  --color-surface-dim: #d8dbd7;
+  --color-surface-bright: #f7faf6;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f1f4f1;
+  --color-surface-container: #ecefeb;
+  --color-surface-container-high: #e6e9e5;
+  --color-surface-container-highest: #e0e3e0;
+  --color-surface-variant: #e0e3e0;
+  --color-surface-tint: #3d6751;
+
+  --color-background: #f7faf6;
+  --color-on-background: #181c1a;
+  --color-on-surface: #181c1a;
+  --color-on-surface-variant: #414943;
+  --color-outline: #717973;
+  --color-outline-variant: #c1c8c1;
+  --color-inverse-surface: #2d312f;
+  --color-inverse-on-surface: #eef1ee;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  --font-display-hero: 'Playfair Display', Georgia, serif;
+  --font-headline-lg: 'Playfair Display', Georgia, serif;
+  --font-headline-md: 'Playfair Display', Georgia, serif;
+  --font-headline-sm: 'Playfair Display', Georgia, serif;
+  --font-body-md: 'Plus Jakarta Sans', sans-serif;
+  --font-body-lg: 'Plus Jakarta Sans', sans-serif;
+  --font-body-sm: 'Plus Jakarta Sans', sans-serif;
+  --font-title-lg: 'Plus Jakarta Sans', sans-serif;
+  --font-title-md: 'Plus Jakarta Sans', sans-serif;
+  --font-label-md: 'Plus Jakarta Sans', sans-serif;
+  --font-label-caps: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Custom Typography Helpers */
+.font-display-hero {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+.font-headline-lg {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+.font-headline-md {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+.font-headline-sm {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+.font-label-caps {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+}

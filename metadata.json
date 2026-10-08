@@ -1,0 +1,6 @@
+{
+  "name": "Go Lanka by Dana",
+  "description": "Bespoke luxury journeys and private travel across Sri Lanka curated with genuine Ceylon warmth by Dana.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
